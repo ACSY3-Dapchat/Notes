@@ -1,2 +1,2 @@
-# Notes
-A collection of notes from third year
+# YearThree
+A collection of notes for third year
