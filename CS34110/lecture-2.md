@@ -60,7 +60,7 @@ If we don't expect to see something, we often will not see it, or it will take s
     * Has motion-specific pathways
 * Vision also makes some interesting mistakes, which offer clues as to how it works
 
-##Machine Vision Is Different!
+###Machine Vision Is Different!
 * Stereo is optional
 * It's very occasionally parallel
 * It's *very* rare to see foveal machine vision
