@@ -57,6 +57,7 @@ Database vs Directory Services:
 Domain Name walk - goes root -> points to UK -> points to ac -> etc.
 
 * ARPA does reverse lookups by IP address
+* ARPA -> Inaddr = come together
 
 #### Where is the root?
 
@@ -76,3 +77,114 @@ Domain Name walk - goes root -> points to UK -> points to ac -> etc.
 #### Name Servers & Zone Boundaries
 
 ![Zone Boundaries](images/Boundaries.png)
+
+---
+
+#### Recursive Search
+
+* DNS Server does the lookup for you
+* On Uni Network, tells you in configuration where the nearest DNS server is
+
+* Local, preferred DNS server does IP lookup for you
+* DNS Servers talks to root -> com -> microsoft -> etc
+
+* Don't need to configure your own machine to the 13 roots
+* DNS Servers cache the results (if someone searches again, retreives from cache instead)
+* Reduces # of DNS walks needed
+
+TTL (Time to Live) on information in cache on server (default is 2 days)
+
+If you change the IP address:
+* Reduce TTL to 30mins
+* Those who use often will have the old one in cache otherwise
+
+Resource Records:
+* TTL column
+* Class (N = Internet)
+* Type (see next section)
+
+#### Type
+
+* *SOA:* Start of authority, what is the DNS's zone of authority
+* *A:* Address record, hostname & IP address
+* *PTR:* Pointer, pass IP address and get name (reverse lookup)
+* *CNAME:* Aliases, inside or outside of zone (outside causes extra lookups...)
+* *MX:* Mail exchanger, emails, x@aber.ac.uk, gives you IP Address of the mail servers, also has an 'A' associated
+* *NS:* Name Server, DNS Servers in this Zone
+
+> 1 Aberystwyth DNS server is in Birmingham for Disaster recovery
+
+> Reverse DNS: for spam filtering, checks where the email originated from and check against the email address, do they match?
+
+---
+
+### What are Directories?
+* They are databases optimised for lookups
+* Only updated occasionally relative to the number of reads / searches
+* Entries have attributes which have values
+* Could use to list printers or students...
+* Tolerant of inconsistencies
+
+### Selecting a naming / directory Service
+* Normally done in /etc/nsswitch.conf
+* Allows choices between:
+  * Plain text
+  * DNS
+  * NIS and NIS+
+  * LDAP
+  * And a few more...
+* Sharing information around a network:
+  * Password hashes
+  * User accounts
+  * Details
+  * Etc
+
+##### NIS:
+* Network Information Service
+* Unix, by Sun
+* Holds:
+  * Usernames / passwords
+  * hostnames
+  * groups and their membership
+  * netgroups
+  * mail aliases
+  * Services
+  * All information stored in a set of 'maps'
+* Master Servers:
+  * All the information
+  * Maintain maps
+  * Distribute when required
+  * Answer queries from clients
+* Slave servers:
+  * Acquire information from masters
+  * Answer queries
+* Cons:
+  * Handling of shadow password Files
+  * Server & Client hanging and not rebinding
+  * Slave servers can get out of sync
+  * Not secure in many ways
+  * Bogus servers
+* Pros:
+ * Relatively easy for admins
+ * Needs little knowledge to use
+
+http://www.bblisa.org/pipermail/bblisa/2006-October/001020.html
+
+---
+
+##### LDAP
+* Lightweight Directory Access protocol
+* Internet way of accessing online directory system
+* Uses X.500 information model
+* Designed to use TCP/IP
+* Defines the interface only
+* Information Model:
+  * Based on Entries
+  * Entries = Attribute Value pairs
+  * Attributes described by the schema
+
+![LDAP Client to Server comms](images/LDAP-Client-to-Server.png)
+
+##### Active Directory
+
+![Active Directory Example](images/AD.png)
