@@ -200,3 +200,36 @@ Space & Planetary robotics includes:
   * Stereo camera with filter wheels
   * Chemical lab on-board (ovens, filters, microscope)
   * Chemistry of soil, study of the water
+  * Lasted ~5months
+  * Frozen water confirmed, falling 'snow' observed
+  * Liquid water not on Mars - pressure too low
+  * Salty & quite alkali soil
+* Eurobot:
+  * On-orbit servicing
+  * 2004
+  * ESA
+  * 3 arms, 2 to hold on, 1 to fix/service
+  * International Space Station
+  * Can use a calibrated robot arm to simulate lack of gravity in training
+    * Or water bath
+    * Parabolic planets
+
+> Also Canadarm, NASA's on-orbit servicer
+
+* Sky Crane:
+  * Jets & powered-descent
+  * Lowered Curiosity down
+  * Once deployed, cut cords and crash land far away
+  * Would've contaminated the surrounding area with excess fuel - didn't want Curiosity also contaminated by going to look for it
+
+> Curiosity was too big for airbags & platform causes other issues
+
+* Mars 2020:
+  * NASA
+  * 2020
+  * Assessment of past habitability
+  * Possibility of life on Mars
+
+
+## Read: 'A Survey of Space Robotics', 2003
+> See notes on Paper 'A Survey of Space Robotics paper'
