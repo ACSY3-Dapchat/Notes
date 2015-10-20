@@ -82,3 +82,121 @@ Space & Planetary robotics includes:
 * [Pioneer 11](https://en.wikipedia.org/wiki/Pioneer_11)
   * 1979
   * Study Saturn
+* Mariner 10
+  * first to use gravity assist
+  * Used Venus to get to Mercury
+  * 1974
+  * USA
+* Venera 9:
+  * Landed on Venus
+  * 1975
+  * First ever planetary landing
+  * USA
+* Venus Vega:
+  * VEGA-1 & VEGA-2 international fleet to Halley's comet
+  * Flew by Venus June 11/15th 1985 & delivered 2 balloons with 4 experiments and 2 landers with 9 additional experiments
+  * USSR & other
+* Vikings 1&2:
+  * Landed on Mars
+  * Launched 1976
+  * Analysed gases in the atmosphere and chemicals in the soil
+  * Looked for life - inconclusive
+  * Useful readings even now for missions
+  * Used power descent
+  * Cameras on boards
+  * Live-scan cameras, rotating turret
+  * No solar panels, used nuclear battery
+  * Thermal regulation important (too hot/cold)
+* Voyager 1&2:
+  * Still operational
+  * Travelling out of the solar system
+  * Last until at least 2020
+  * Slingshots around planets to the next
+  * Voyager 1 - Jupiter & Saturn -> Titan
+  * Voyager 2 - Jupiter, Saturn, Uranus, Tritan
+  * 38 years later... only send data about magnetic field (to save battery)
+* Mars Global Surveyer:
+  * Elliptical capture orbit
+  * 12th September 1997
+  * Mars Orbiter Camera (MOC)
+  * Mars Orbiter Laser Altimeter (MOLA) - topographic mapper, now broken
+* Mars Pathfinder:
+  * Landed on Mars
+  * 4th July 1997
+  * Impacted at ~18m/s (40mph) & bounced ~15m into the air
+  * Bounced another 15 times
+  * Landed 1km from impact site
+  * Rover & Lander
+  * 6-wheel rover (Sojourner)
+  * Lander had a better Camera
+  * Wrapped in gas-bags to bounce
+  * Mechanisms deployed to ensure lander was right way up
+  * Rover had x-ray spectrometer, small Camera
+  * Drove ~10m from lander, commands relayed from lander
+
+![Sojourner rover](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sojourner_on_Mars_PIA01122.jpg/200px-Sojourner_on_Mars_PIA01122.jpg)
+
+![Landsite panorama](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Mars_pathfinder_panorama_large.jpg/1200px-Mars_pathfinder_panorama_large.jpg)
+
+![Blue sunset on Mars](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Mars_sunset_PIA00920.jpg/220px-Mars_sunset_PIA00920.jpg)
+
+* Mars Odyssey:
+  * 2001
+  * Still in use
+  * Orbiter
+  * Images in Infrared
+  * Gamma ray spectrometer
+  * NASA
+  * Can detect hydrogen (hydrogen could = water)
+  * 19m/pixel - high-res images, could see river structures
+
+> MOLA Altimeter suggested large quantities of water on Mars
+
+> Beagle 2 used Viking data to plan landing area
+
+* ESA Mars Express:
+  * EU Orbiter
+  * 2003
+  * Lightweight
+  * Had to add more instruments to get to predicted weight (by about 120kg)
+  * Took Beagle 2
+  * Camera HRSC (high-res stereo camera)
+  * 3D images
+  * Used aero-braking to slow into Mars atmosphere & orbit
+
+> Mars Odyssey used for Beagle 2 data relay while Mars Express slowed it's orbit
+
+> Frangibolts = explosive bolts
+
+> Outgassing = trapped gas & vapour escaping, could recondense as ice, if a lot escaping, could make mini-thruster
+
+> Push room camera
+
+> Northern pole of Mars has ice & frost (CO2)
+
+* Mars Exploration Rovers:
+  * Spirit & Opportunity
+  * 2004
+  * USA
+  * Part of the Exploration programme
+  * Lots of instruments on board
+  * 6-wheeled
+  * Parachute & airbag landing
+  * Spirit died
+  * Opportunity still alive - bad wheel so driving backwards, has traveled ~40km
+  * Must have strategy for surviving winter (shelter behind slope)
+
+> High-gain antenna can talk to earth if needed
+
+> Low-gain antenna more used, talks to passing satellites
+
+* NASA Phoenix:
+  * 2008
+  * Lander
+  * Exploring Martian Arctic
+  * South pole particularly icy (Water & CO2 ice)
+  * Follows Mars Polar Lander - which crash Landed
+  * Went to the North Pole
+  * Stereo camera with filter wheels
+  * Chemical lab on-board (ovens, filters, microscope)
+  * Chemistry of soil, study of the water
